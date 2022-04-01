@@ -1,0 +1,52 @@
+ #meunome {
+    font-family: 'Acme', sans-serif;
+    font-family: 'Caveat Brush', cursive;
+    font-family: 'Hina Mincho', serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Patrick Hand', cursive;
+    
+ }
+
+ #descricao, #sobremim, #formacao {
+    font-family: 'Acme', sans-serif;
+    font-family: 'Caveat Brush', cursive;
+    font-family: 'Hina Mincho', serif;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Patrick Hand', cursive;
+
+ }
+ #descricao {
+    font-style:italic;
+}
+
+ #one {
+      font-size:15px;
+ }
+ #two {
+      font-size:25px;
+ }
+ #three {
+      font-size:18px;
+ }
+ #four {
+      font-size:20px;
+ }
+ #five {
+      font-size:22px;
+ }
+
+ #six {
+     font-size: 23px;
+ }
+
+ #minhafoto {
+     border-radius: 200%;
+ }
+
+ body {
+     background-color: #D8CFAF;
+ }
