@@ -1,15 +1,15 @@
- #meunome {
-    font-family: 'Acme', sans-serif;
+ /* #meunome { */
+    /* font-family: 'Acme', sans-serif;
     font-family: 'Caveat Brush', cursive;
     font-family: 'Hina Mincho', serif;
     font-family: 'IBM Plex Sans Arabic', sans-serif;
     font-family: 'Indie Flower', cursive;
     font-family: 'Lobster', cursive;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Patrick Hand', cursive; */
     
- }
+ /* } */
 
- #descricao, #sobremim, #formacao {
+ /* #descricao, #sobremim, #formacao {
     font-family: 'Acme', sans-serif;
     font-family: 'Caveat Brush', cursive;
     font-family: 'Hina Mincho', serif;
@@ -18,9 +18,10 @@
     font-family: 'Lobster', cursive;
     font-family: 'Patrick Hand', cursive;
 
- }
+ } */
  #descricao {
-    font-style:italic;
+    /* font-style:italic; */
+    margin-left: 10px;
 }
 
  #one {
@@ -45,8 +46,90 @@
 
  #minhafoto {
      border-radius: 200%;
+     width: 200px;
  }
 
  body {
-     background-color: #D8CFAF;
+     background-color: #d8afcca6;
+     text-align: center;
  }
+
+ .description-class {
+     display: flex;
+     width: 50%;
+     margin-left: auto;
+     margin-right: auto; 
+     /* height: 100vh; */
+     padding: 30px;
+ }
+
+ .back-desc {
+     background-color: #c478ada6;
+     width: 100%;
+ }
+
+ #navbar {
+     display: flex;
+     justify-content: space-evenly;
+     /* flex-direction: column; */
+     height: 80px;
+ }
+
+ .social-media:hover {
+    width: 43px;
+ }
+
+ #linktoprojetos {
+     background-color: rgba(113, 90, 117, 0.835); 
+     padding: 15px;
+     border-radius: 100px;
+     text-decoration: none;
+     color: black;
+}
+
+.linktoproj:hover {
+    color: black;
+}
+
+.card-project {
+     background-color: #c478ada6;
+     width: 30%;
+     display: flex;
+     text-align: center;
+     flex-direction: column;
+     margin-top: 10px;
+     padding: 15px;
+     text-decoration: none;
+     color:black;
+ }
+
+ .card-project:hover {
+     background-color: #dd25a6a6;
+ }
+
+ .father-cards {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+ }
+
+.card-text {
+     background-color: #c478ada6;
+     width: 30%;
+     display: flex;
+     text-align: center;
+     flex-direction: column;
+     margin-top: 10px;
+     padding: 15px;
+     text-decoration: none;
+     color:black;
+}
+
+.certificate {
+    text-decoration: none;
+    color:black;
+}
+
+.certificate:hover {
+    background-color: #dd25a6a6;
+}

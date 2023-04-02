@@ -2,9 +2,10 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/9458/9458221.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio Web</title>
+    <title>Heloísa Santana</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Acme&family=Caveat+Brush&family=Hina+Mincho&family=IBM+Plex+Sans+Arabic:wght@300&family=Indie+Flower&family=Lobster&family=Patrick+Hand&display=swap" rel="stylesheet">
@@ -17,29 +18,101 @@
     
     </head>
     <body>
-    <p><h2>Seja bem vindo(a)!</h2></p> <br>
-    <p><h3>Meu Portfólio Web</h3</p> 
-    <p><h4><a href="#descricao">Quem sou eu?</a></h4></p> 
-    <p><h4><a href="#habilidades">Minhas Competências</a></h4></p> 
-    <p><h4><a href="#redes">Como me encontrar</a></h4></p> <br>
+      <div id="navbar">
+        <!-- <p><h2>Seja bem vindo(a)!</h2></p> <br> -->
+        <!-- <p><h3>Meu Portfólio Web</h3</p>  -->
+          <p><h4 ><a id="linktoprojetos" class="linktoproj" href="#projects">Meus Projetos</a></h4></p> 
+          <!-- <p><h4><a href="#habilidades">Minhas Competências</a></h4></p>  -->
+          
+          <p>
+            <a href="https://www.linkedin.com/in/heloisa-santana-da-silva/" target="_blank">
+              <img class="social-media" src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" width="40px">
+            </a>
+            <a  href="https://github.com/heloisasantana" target="_blank">  
+              <img class="social-media" src=" https://cdn-icons-png.flaticon.com/512/2111/2111432.png" width="40px">
+            </a>
+          </p> 
+          <br>
+      </div>
  <hr>
- <h1 id="meunome">Heloísa Santana da Silva</h1>
-  
- <img id="minhafoto" src="./fotoperfil.jpeg" alt="Foto da Heloísa, uma mulher jovem com cabelo preto cacheado médio, de óculos, sorrindo, com camiseta cinza escura e olhando para a câmera. O fundo é amarelo." width="300px">
-
- <br><br><br>
- <h3 id="sobremim">Sobre mim</h3>
- <p id="descricao">Tenho 25 anos, sou brasileira nata, nascida e residente em São Paulo-SP.
-  <br>
-  Atualmente sou estudante de Desenvolvimento Web na Trybe, em formação fullstack. 
-  <br> 
-  Sou iniciante na área da tecnologia e busco ampliar meus conhecimentos não só em hard skills, como também em soft skills.
-  <br>
-  Gosto muito de ouvir música, memes de bichinhos e assistir filmes!
- </p>
+ <div class="back-desc">
+   <div class="description-class">
+     <img id="minhafoto" src="./fotoperfil.jpeg" alt="Foto da Heloísa, uma mulher jovem com cabelo preto cacheado médio, de óculos, sorrindo, com camiseta cinza escura e olhando para a câmera. O fundo é amarelo.">
+     <div>  
+       <h1 id="meunome">Heloísa Santana da Silva</h1>
+       <p id="descricao">Olá! Me chamo Heloísa e resido em São Paulo-SP.
+       Atualmente sou estudante de Análise e Desenvolvimento de Sistemas na Fatec Zona Leste. Em abril concluo o curso de Desenvolvimento Web na Trybe, em formação fullstack.
+      
+       <!-- Sou iniciante na área da tecnologia e busco ampliar meus conhecimentos não só em hard skills, como também em soft skills. -->
+       Gosto muito de ouvir música, memes de bichinhos e assistir filmes!
+       </p>
+     </div>
+   </div>
+</div>
  <br><br><br>
  
-    <ul id="habilidades"><strong>Minhas Habilidades:</strong>
+ <div class="father-cards">
+   <div class="card-text">
+    <h3>Tecnologias</h3>
+    <p><img src="https://cdn-icons-png.flaticon.com/512/721/721671.png" width="25px"/> JavaScript</p>
+    <p><img src="https://cdn-icons-png.flaticon.com/512/732/732007.png" width="25px"/> CSS</p>
+    <p><img src="https://cdn-icons-png.flaticon.com/128/1051/1051328.png" width="25px"/> HTML</p>
+    <p><img src="https://cdn-icons-png.flaticon.com/128/3393/3393920.png" width="25px"/> React</p>
+    <p><img src="https://cdn-icons-png.flaticon.com/128/274/274439.png" width="25px"/> SQL </p>
+  </div>
+   <div class="card-text">  
+    <h3>Certificações</h3>
+    <a 
+      href="https://www.credential.net/68fe70a5-ee20-473b-8596-ff4b768acce0#gs.dperem"
+      class="certificate"
+    >
+      <p>Fundamentos de Desenvolvimento Web</p>
+    </a>
+    <a 
+      href="https://www.credential.net/d9bc9c52-a08a-4df1-8589-481ae71f1883#gs.tmrakw"
+      class="certificate"
+    >
+      <p>Desenvolvimento FrontEnd</p>
+    </a>
+    <a 
+      href="https://www.credential.net/4ec3194e-25ea-4bd4-b2fd-a89709c8461a"
+      class="certificate"
+    >
+      <p>Desenvolvimento BackEnd</p>
+    </a>
+    <p>Ciência da Computação</p>
+    <!-- <p>Formação Superior em Análise e Desenvolvimento de Sistemas</p> -->
+  </div>
+  </div>
+   <br><br><br>
+ <div class="father-cards" id="projects">
+   
+   <a href="https://heloisasantana.github.io/pixels-art/" class="card-project">
+    <h4>Pixels Art</h4>
+    <!-- <p>Esse projeto foi desenvolvido</p> -->
+   </a>
+  <a href="https://to-do-list-weld-one.vercel.app/" class="card-project">
+    <h4>To Do List</h4>
+    <!-- <p>Esse projeto foi desenvolvido</p> -->
+  </a>
+  <a href="https://heloisasantana.github.io/color-guess/" class="card-project">
+    <h4>Guess the Color</h4>
+    <!-- <p>Esse projeto foi desenvolvido</p> -->
+  </a>
+  <a href="https://recipes-app-green-two.vercel.app/" class="card-project">
+    <h4>Recipes App</h4>
+    <!-- <p>Esse projeto foi desenvolvido</p> -->
+  </a>
+  <a href="https://heloisasantana.github.io/shopping-cart/" class="card-project">
+    <h4>Shopping Cart</h4>
+    <!-- <p>Esse projeto foi desenvolvido</p> -->
+  </a>
+  <a href="https://trybetunes-rho.vercel.app/" class="card-project">
+    <h4>TrybeTunes</h4>
+    <!-- <p>Esse projeto foi desenvolvido</p> -->
+  </a>
+  </div>
+    <!-- <ul id="habilidades"><strong>Minhas Habilidades:</strong>
         <li>UNIX, Git&GitHub, HTML</li>
         <li><em><strong>Organização</strong></em></li>
         <li>Responsabilidade</li>
@@ -47,19 +120,15 @@
         <li>Paciência</li>
         <li>Dedicação</li>
        
-        </ul>
+        </ul> -->
+        <!-- <h3>Acessar CV</h3> -->
 
 <br><br><br>
 
-
- <ul id=redes><strong>Minhas Redes Sociais:</strong>
-            <li><a href="https://www.linkedin.com/in/heloisa-santana-da-silva/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/heloisasantana" target="_blank">GitHub</a></li>
-    </ul>
     
    <br><br><br><br><br>
     <hr>
-   <p><a href="#minhafoto">Voltar para o início</a></p>
+   <p><a href="#navbar">Voltar para o início</a></p>
 
    <br><br><br>
 
