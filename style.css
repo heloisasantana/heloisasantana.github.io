@@ -50,7 +50,7 @@
  }
 
  body {
-     background-color: #d8afcca6;
+     background-color: #c7c093a6;
      text-align: center;
  }
 
@@ -64,7 +64,7 @@
  }
 
  .back-desc {
-     background-color: #c478ada6;
+     background-color: #bbb380a6;
      width: 100%;
  }
 
@@ -80,7 +80,7 @@
  }
 
  #linktoprojetos {
-     background-color: rgba(113, 90, 117, 0.835); 
+     background-color: #797352a6; 
      padding: 15px;
      border-radius: 100px;
      text-decoration: none;
@@ -92,7 +92,7 @@
 }
 
 .card-project {
-     background-color: #c478ada6;
+     background-color: #bbb380a6;
      width: 30%;
      display: flex;
      text-align: center;
@@ -104,7 +104,7 @@
  }
 
  .card-project:hover {
-     background-color: #dd25a6a6;
+     background-color: #706c52a6;
  }
 
  .father-cards {
@@ -114,7 +114,7 @@
  }
 
 .card-text {
-     background-color: #c478ada6;
+     background-color: #bbb380a6;
      width: 30%;
      display: flex;
      text-align: center;
@@ -131,5 +131,5 @@
 }
 
 .certificate:hover {
-    background-color: #dd25a6a6;
+    background-color: #706c52a6;
 }
